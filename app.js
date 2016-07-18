@@ -48,4 +48,37 @@ function getVowelCount(text) {
 
 console.log(getVowelCount(sentence)); */
 
-// Print 
+// Print fibonacci series 
+
+/*var fibbo = [0, 1];
+
+function fibonacci(limit) {
+    for(var i = 0; i < fibbo.length;i++) {
+        if(fibbo.length < limit) {
+            var c = fibbo[i]+fibbo[i+1];
+             fibbo.push(c)
+        } 
+        else {
+            break;
+        }
+    }
+    return fibbo;
+}
+
+console.log(fibonacci(20));*/
+
+// Print the factorial of a number 
+
+/*function fictorial(n) {
+    if(n === 0){
+        return 1;
+    }else {
+        
+        return n *fictorial(n-1);
+    }
+}
+
+
+console.log(fictorial(5));
+*/
+
